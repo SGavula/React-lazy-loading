@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
-function App() {
+const App = () => {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image1.jpeg"} height={500} width={800} />
+      <LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image2.jpeg"} height={500} width={800} />
+      <LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image3.jpg"} height={500} width={800} />
+      <LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image4.jpeg"} height={500} width={800} />
+      <LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image5.jpeg"} height={500} width={800} />
+      <LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image1.jpeg"} height={500} width={800} />
+      <LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image2.jpeg"} height={500} width={800} />
+      <LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image3.jpg"} height={500} width={800} />
+      <LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image4.jpeg"} height={500} width={800} />
+  <LazyLoadImage effect="blur" src={"https://ik.imagekit.io/demo/img/image5.jpeg"} height={500} width={800} />*/}
+
+        <img src="https://ik.imagekit.io/demo/img/image1.jpeg?tr=w-800,h-500" />
+        <img src="https://ik.imagekit.io/demo/img/image2.jpeg?tr=w-800,h-500" />
+        <img src="https://ik.imagekit.io/demo/img/image3.jpg?tr=w-800,h-500" />
+        <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-800,h-500" />
+        <img src="https://ik.imagekit.io/demo/img/image5.jpeg?tr=w-800,h-500" />
+        <img src="https://ik.imagekit.io/demo/img/image1.jpeg?tr=w-800,h-500" />
+        <img src="https://ik.imagekit.io/demo/img/image2.jpeg?tr=w-800,h-500" />
+        <img src="https://ik.imagekit.io/demo/img/image3.jpg?tr=w-800,h-500" />
+        <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-800,h-500" />
+        <img src="https://ik.imagekit.io/demo/img/image5.jpeg?tr=w-800,h-500" />
+      
     </div>
   );
 }
